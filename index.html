@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telecommunication Engineer | Portofolio Digital</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand">
+        <span>Telecom</span><span class="text-gradient">Engineer</span>
+        <span class="nav-brand-badge">D3 Telecommunication</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Buka Menu Navigasi">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+
+      <!-- Navigation Menu -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Hubungi Saya</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            <span>Open to RF, Network & NOC Roles</span>
+          </div>
+          <h1 class="hero-title">
+            Telecommunication <br>
+            <span class="text-gradient">Engineer Portfolio</span>
+          </h1>
+          <p class="hero-subtitle">
+            Telecommunication Engineering Graduate | Aspiring RF, Network & NOC Engineer
+          </p>
+          <p class="hero-tagline">
+            Menghubungkan prinsip dasar perangkat keras, simulasi sirkuit, dan perangkat lunak untuk membangun sistem komunikasi yang andal.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Eksplorasi Proyek</a>
+            <a href="#contact" class="btn btn-secondary">Kontak & Informasi</a>
+          </div>
+        </div>
+
+        <!-- Terminal Card UI -->
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <span class="terminal-dot dot-red"></span>
+            <span class="terminal-dot dot-yellow"></span>
+            <span class="terminal-dot dot-green"></span>
+            <span class="terminal-title">telecom-node ~ status</span>
+          </div>
+          <div class="terminal-body">
+            <div class="term-line"><span class="term-prompt">$</span> cat profile.json</div>
+            <div class="term-line">{</div>
+            <div class="term-line">&nbsp;&nbsp;<span class="term-highlight">"education"</span>: "D3 Teknik Telekomunikasi",</div>
+            <div class="term-line">&nbsp;&nbsp;<span class="term-highlight">"target_roles"</span>: [</div>
+            <div class="term-line">&nbsp;&nbsp;&nbsp;&nbsp;"RF Engineer",</div>
+            <div class="term-line">&nbsp;&nbsp;&nbsp;&nbsp;"Network Engineer",</div>
+            <div class="term-line">&nbsp;&nbsp;&nbsp;&nbsp;"Network Operation Engineer"</div>
+            <div class="term-line">&nbsp;&nbsp;],</div>
+            <div class="term-line">&nbsp;&nbsp;<span class="term-highlight">"core_tools"</span>: ["Multisim", "VirtualBox", "Arduino IDE", "NetBeans"],</div>
+            <div class="term-line">&nbsp;&nbsp;<span class="term-highlight">"languages"</span>: ["C", "C++", "Java", "Python"]</div>
+            <div class="term-line">}</div>
+            <div class="term-line"><span class="term-prompt">$</span> ping -c 1 telecommunication-lab <span class="term-comment"># OK</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title"><span>01.</span> Tentang Saya</h2>
+        <p class="section-desc">Latar belakang, fokus teknis, dan pendekatan dalam memecahkan masalah sistem komunikasi.</p>
+        
+        <div class="about-grid">
+          <div class="about-card">
+            <p>
+              Saya merupakan lulusan D3 Teknik Telekomunikasi dengan fokus ketertarikan pada bidang jaringan (Network Engineering), operasional jaringan (NOC), dan komunikasi frekuensi radio (RF). Latar belakang pendidikan saya menitikberatkan pada pemahaman fundamental sistem komunikasi—mulai dari perilaku medan elektromagnetik, integritas sinyal pada sirkuit digital, hingga konfigurasi perangkat keras.
+            </p>
+            <p>
+              Dalam menyelesaikan tugas rekayasa, saya memadukan pemrograman (C, C++, Java, Python) dengan perkakas simulasi sirkuit dan virtualisasi seperti Multisim dan Oracle VirtualBox. Saya terbiasa menganalisis masalah dari prinsip dasarnya untuk memastikan sistem perangkat keras dan perangkat lunak dapat terintegrasi sesuai spesifikasi teoritis.
+            </p>
+          </div>
+
+          <div class="target-roles-card">
+            <h3>Fokus & Target Role</h3>
+            <ul class="roles-list">
+              <li class="role-item">
+                <span class="role-icon">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </span>
+                <div>
+                  <div class="role-name">RF Engineer</div>
+                  <div class="role-desc">Analisis parameter elektromagnetik, propagasi, dan sistem frekuensi radio.</div>
+                </div>
+              </li>
+              <li class="role-item">
+                <span class="role-icon">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                </span>
+                <div>
+                  <div class="role-name">Network Engineer</div>
+                  <div class="role-desc">Perancangan, instalasi, dan routing infrastruktur jaringan komunikasi data.</div>
+                </div>
+              </li>
+              <li class="role-item">
+                <span class="role-icon">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </span>
+                <div>
+                  <div class="role-name">Network Operation Engineer (NOC)</div>
+                  <div class="role-desc">Monitoring stabilitas sistem transmisi, respons insiden, dan pemeliharaan link.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title"><span>02.</span> Keterampilan Teknis</h2>
+        <p class="section-desc">Kompilasi keahlian berbasis perangkat keras, simulasi, dan bahasa pemrograman yang digunakan.</p>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+            </div>
+            <div class="category-note">Digunakan untuk firmware mikrokontroler, algoritma matematis, dan perangkat lunak desktop.</div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+              </div>
+              <h3 class="category-title">Networking</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Oracle VirtualBox</span>
+            </div>
+            <div class="category-note">Virtualisasi sistem operasi untuk simulasi lingkungan jaringan dan isolasi pengujian.</div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+              </div>
+              <h3 class="category-title">Software & Simulation</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Multisim</span>
+              <span class="skill-tag">Arduino IDE</span>
+              <span class="skill-tag">NetBeans IDE</span>
+            </div>
+            <div class="category-note">Perancangan & analisis sirkuit analog/digital, deployment firmware, serta pembuatan sistem GUI.</div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+              </div>
+              <h3 class="category-title">Communication Systems</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Mikrokontroler</span>
+              <span class="skill-tag">Digital Logic Circuits</span>
+              <span class="skill-tag">Elektromagnetika Dasar</span>
+            </div>
+            <div class="category-note">Perakitan hardware breadboard, decoding sinyal digital, dan perhitungan medan magnetik.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title"><span>03.</span> Portofolio Proyek</h2>
+        <p class="section-desc">Proyek praktis yang membuktikan pemahaman teori elektromagnetika, rangkaian digital, dan mikrokontroler.</p>
+
+        <div class="projects-grid">
+          <!-- Project 1 (Primary - RF / Electromagnetics) -->
+          <div class="project-card">
+            <span class="project-priority-badge priority-featured">Prioritas 1 • RF Fundamental</span>
+            <div class="project-category-tag">DESKTOP SOFTWARE • ELECTROMAGNETICS</div>
+            <h3 class="project-title">Kalkulator Medan Magnet Berbasis Java</h3>
+            <p class="project-overview">
+              Aplikasi desktop untuk menghitung kuat medan magnet secara presisi pada kawat lurus dan solenoida berdasarkan parameter fisik.
+            </p>
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">Masalah</span>
+                <span class="spec-val">Kalkulasi manual nilai medan magnet rentan terhadap kesalahan rumus saat analisis elektromagnetika.</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Peran Saya</span>
+                <span class="spec-val">Pengembang software (Merancang antarmuka input/output dan logika perhitungan di NetBeans).</span>
+              </div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">NetBeans IDE</span>
+              <span class="tech-pill">Elektromagnetika</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" onclick="openModal('modal-p1')">
+                Detail Lengkap Proyek &rarr;
+              </button>
+              <span class="status-unlinked">[Demo: Belum diisi]</span>
+            </div>
+          </div>
+
+          <!-- Project 2 (Digital Logic / Hardware) -->
+          <div class="project-card">
+            <span class="project-priority-badge priority-core">Prioritas 2 • Digital Logic</span>
+            <div class="project-category-tag">HARDWARE CIRCUIT • NOR LOGIC</div>
+            <h3 class="project-title">Perancangan Rangkaian Decoder 3x5</h3>
+            <p class="project-overview">
+              Sirkuit decoding hardware yang menguraikan 3 jalur input menjadi 5 output diskrit menggunakan gerbang NOR dengan display 7-Segment & LED.
+            </p>
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">Masalah</span>
+                <span class="spec-val">Membuktikan prinsip transmisi decoding digital dari tabel kebenaran ke sirkuit fisik bebas interferensi sinyal.</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Peran Saya</span>
+                <span class="spec-val">Perancang logika sirkuit, penyusun tabel kebenaran, dan perakit breadboard circuit.</span>
+              </div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Gerbang NOR</span>
+              <span class="tech-pill">7-Segment Display</span>
+              <span class="tech-pill">LED Indicator</span>
+              <span class="tech-pill">Breadboard</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" onclick="openModal('modal-p2')">
+                Detail Lengkap Proyek &rarr;
+              </button>
+              <span class="status-unlinked">[Demo: Belum diisi]</span>
+            </div>
+          </div>
+
+          <!-- Project 3 (Embedded / Sensor) -->
+          <div class="project-card">
+            <span class="project-priority-badge priority-core">Prioritas 3 • Automation</span>
+            <div class="project-category-tag">EMBEDDED SYSTEM • ARDUINO</div>
+            <h3 class="project-title">Lampu Otomatis Sensor Gerak</h3>
+            <p class="project-overview">
+              Sistem kendali sakelar lampu otomatis menggunakan pembacaan sensor gerak, mikrokontroler Arduino Uno, dan switching transistor.
+            </p>
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">Masalah</span>
+                <span class="spec-val">Pemborosan energi pada ruangan saat lampu tetap menyala tanpa ada aktivitas fisik.</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Peran Saya</span>
+                <span class="spec-val">Programmer Arduino (C/C++) dan perakit rangkaian interfacing komponen transistor.</span>
+              </div>
+            </div>
+            <div class="project-tech-stack">
+              <span class="tech-pill">Arduino IDE</span>
+              <span class="tech-pill">C / C++</span>
+              <span class="tech-pill">Sensor Gerak</span>
+              <span class="tech-pill">Transistor</span>
+            </div>
+            <div class="project-footer">
+              <button class="btn-details" onclick="openModal('modal-p3')">
+                Detail Lengkap Proyek &rarr;
+              </button>
+              <span class="status-unlinked">[GitHub: Belum diisi]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE & EDUCATION ================= -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title"><span>04.</span> Pengalaman & Pendidikan</h2>
+        <p class="section-desc">Riwayat akademik dan keterlibatan praktis dalam sistem telekomunikasi.</p>
+
+        <div class="edu-exp-grid">
+          <!-- Experience Card -->
+          <div class="timeline-card">
+            <h3 class="timeline-header">
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              Pengalaman Proyek & Akademik
+            </h3>
+            <div class="timeline-items">
+              <div class="timeline-entry">
+                <div class="timeline-badge">PROYEK & LAB TELEKOMUNIKASI</div>
+                <h4 class="timeline-entry-title">Pengembangan Sistem & Rangkaian Komunikasi</h4>
+                <div class="timeline-org">[Tempat / Institusi: Belum diisi] • [Periode: Belum diisi]</div>
+                <div class="timeline-desc">
+                  Terlibat dalam perancangan, pemrograman, dan pengujian sistem telekomunikasi untuk kebutuhan akademik dan proyek mandiri:
+                  <ul style="margin-top: 0.5rem; padding-left: 1.25rem;">
+                    <li>Menganalisis rangkaian logika digital dan simulasi sirkuit menggunakan Multisim.</li>
+                    <li>Mengembangkan firmware mikrokontroler menggunakan Arduino IDE (C/C++).</li>
+                    <li>Membangun aplikasi desktop penunjang kalkulasi teknis menggunakan Java.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Card -->
+          <div class="timeline-card" id="education">
+            <h3 class="timeline-header">
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path></svg>
+              Pendidikan
+            </h3>
+            <div class="timeline-items">
+              <div class="timeline-entry">
+                <div class="timeline-badge">DIPLOMA TIGA (D3)</div>
+                <h4 class="timeline-entry-title">D3 Teknik Telekomunikasi</h4>
+                <div class="timeline-org">[Nama Perguruan Tinggi: Belum diisi] • [Tahun: Belum diisi]</div>
+                <div class="timeline-desc">
+                  Mempelajari dasar sistem komunikasi, transmisi sinyal data, elektronika sirkuit, mikrokontroler, serta pemodelan medan elektromagnetik.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-card">
+          <h2 class="contact-title">Tertarik Berkolaborasi?</h2>
+          <p class="contact-text">
+            Saya siap berkontribusi sebagai <strong>RF Engineer</strong>, <strong>Network Engineer</strong>, atau <strong>Network Operation Engineer (NOC)</strong>. Silakan hubungi saya melalui jalur komunikasi berikut:
+          </p>
+          <div class="contact-channels">
+            <div class="contact-item">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              <span>Email: [Belum diisi]</span>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2" stroke-width="2"></circle></svg>
+              <span>LinkedIn: [Belum diisi]</span>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+              <span>GitHub: [Belum diisi]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>&copy; 2026 Telecommunication Engineer Portfolio. Hak Cipta Dilindungi.</div>
+      <div>Dibangun untuk penempatan kerja RF, Network & NOC Engineering.</div>
+    </div>
+  </footer>
+
+  <!-- ================= MODALS DETAIL PROYEK ================= -->
+  <!-- Modal Project 1 -->
+  <div class="modal-overlay" id="modal-p1">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('modal-p1')" aria-label="Tutup">&times;</button>
+      <h3 class="modal-title">Kalkulator Medan Magnet Berbasis Java</h3>
+      <div class="modal-tech">Java • NetBeans IDE • Analisis Elektromagnetika</div>
+      <div class="modal-section">
+        <div class="modal-section-title">Problem</div>
+        <p>Perhitungan manual nilai kuat medan magnet sering kali memakan waktu dan rentan terhadap kekeliruan perhitungan matematis ketika menganalisis karakteristik kawat penghantar.</p>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">Solution</div>
+        <p>Membangun aplikasi desktop dengan antarmuka grafis di NetBeans untuk memproses rumus medan magnet secara otomatis berdasarkan variabel masukan.</p>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">Fitur & Parameter</div>
+        <p>Pilihan konduktor (Kawat Lurus, Solenoida) dengan parameter input: Arus listrik (I), Jarak titik (r), dan Jumlah lilitan (N).</p>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">Development Process</div>
+        <ol>
+          <li>Merumuskan persamaan fisika medan magnet kawat lurus dan solenoida.</li>
+          <li>Merancang form input dan validasi tipe data di NetBeans.</li>
+          <li>Mengimplementasikan logika algoritma perhitungan dalam Java.</li>
+          <li>Menguji validitas hasil perhitungan program dengan metode perhitungan manual.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Project 2 -->
+  <div class="modal-overlay" id="modal-p2">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('modal-p2')" aria-label="Tutup">&times;</button>
+      <h3 class="modal-title">Perancangan Rangkaian Decoder 3x5 Berbasis Gerbang NOR</h3>
+      <div class="modal-tech">Gerbang NOR • 7-Segment Display • Indikator LED • Breadboard</div>
+      <div class="modal-section">
+        <div class="modal-section-title">Problem</div>
+        <p>Kebutuhan untuk membuktikan prinsip kerja decoding sinyal biner dari perumusan tabel kebenaran teoritis ke dalam wujud fisik rangkaian sirkuit digital.</p>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">Solution</div>
+        <p>Merancang kombinasi gerbang logika NOR pada breadboard yang memetakan 3 jalur input ke 5 jalur output dengan verifikasi visual 7-segment dan LED.</p>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">Development Process</div>
+        <ol>
+          <li>Menyusun tabel kebenaran relasi logika 3-input menjadi 5-output diskrit.</li>
+          <li>Menyederhanakan fungsi logika agar dapat diimplementasikan seluruhnya menggunakan gerbang NOR.</li>
+          <li>Merakit pengkabelan sirkuit pada breadboard beserta resistor pembatas arus.</li>
+          <li>Melakukan validasi kondisi aktif setiap output LED sesuai kombinasi input 7-segment.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Project 3 -->
+  <div class="modal-overlay" id="modal-p3">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('modal-p3')" aria-label="Tutup">&times;</button>
+      <h3 class="modal-title">Lampu Otomatis Sensor Gerak Berbasis Mikrokontroler</h3>
+      <div class="modal-tech">Arduino Uno • Arduino IDE • C/C++ • Sensor Gerak • Transistor</div>
+      <div class="modal-section">
+        <div class="modal-section-title">Problem</div>
+        <p>Pemborosan energi listrik akibat penerangan ruangan yang terus menyala ketika tidak ada aktivitas pengguna.</p>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">Solution</div>
+        <p>Memanfaatkan mikrokontroler Arduino Uno untuk membaca sinyal perubahan dari sensor gerak dan mengendalikan pensaklaran transistor sebagai sakelar elektronik beban lampu.</p>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title">Development Process</div>
+        <ol>
+          <li>Menghubungkan sensor gerak ke pin input digital mikroprosesor Arduino.</li>
+          <li>Merangkai transistor bipolar sebagai driver sakelar untuk mengalirkan arus ke lampu.</li>
+          <li>Menulis dan mengunggah kode firmware menggunakan Arduino IDE (bahasa C/C++).</li>
+          <li>Menguji keandalan deteksi sensor gerak dan waktu tunda pemutusan sakelar.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Mobile navigation toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('is-active');
+      });
+
+      // Tutup menu otomatis jika link diklik pada mode mobile
+      document.querySelectorAll('.nav-link, .nav-cta').forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('is-active');
+        });
+      });
+    }
+
+    // Modal helpers
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    // Tutup modal jika mengklik background overlay
+    window.addEventListener('click', (e) => {
+      if (e.target.classList.contains('modal-overlay')) {
+        e.target.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Tutup modal dengan tombol Escape
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay.active').forEach(modal => {
+          modal.classList.remove('active');
+        });
+        document.body.style.overflow = '';
+      }
+    });
+  </script>
+</body>
+</html>
